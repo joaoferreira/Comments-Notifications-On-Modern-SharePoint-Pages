@@ -1,0 +1,36 @@
+{
+  "id": "44a10c23-f318-4c02-94b6-4447c4cc8906",
+  "alias": "GetCommentsApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "loaderConfig": {
+    "entryModuleId": "get-comments-application-customizer",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "get-comments-application-customizer": {
+        "type": "path",
+        "path": "dist/get-comments-application-customizer.js"
+      },
+      "@microsoft/decorators": {
+        "type": "component",
+        "version": "1.5.1",
+        "id": "f97266fb-ccb7-430e-9384-4124d05295d3"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "version": "1.5.1",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "version": "1.5.1",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
+      }
+    }
+  }
+}
